@@ -9,21 +9,21 @@ public class Cliente
 	private String direccionCliente;
 
 	//Introduzco Constructores 
-	//Constructor por defecto o vacÌo 
+	//Constructor por defecto o vac√≠o 
 	public Cliente()
 	{
 		codigoCliente = "";
 		nombre = nombre;
 		direccionCliente= "";
 	}
-	//Constructor con par·metros
+	//Constructor con par√°metros
 	public Cliente(String cod, String nombre, String direccion)
 	{
 		codigoCliente = cod;
 		nombre = nombre;
 		direccionCliente = direccion;
 	}
-	//MÈtodos Inspectores
+	//M√©todos Inspectores
 	public String getCodigoCliente()
 	{
 		return codigoCliente;
@@ -49,3 +49,5 @@ public class Cliente
 		direccionCliente = direccion;
 	}
 }
+
+//haciendo pruebas
