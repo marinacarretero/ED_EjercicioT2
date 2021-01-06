@@ -42,4 +42,3 @@ public class TestBanco {
 		cuentaBeatriz.setSaldoCuenta(cuentaBeatriz.getSaldoCuenta() + 50);
 	}
 }
-//prueba
