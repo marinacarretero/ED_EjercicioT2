@@ -20,7 +20,7 @@ public class Cliente
 	public Cliente(String cod, String nombre, String direccion)
 	{
 		codigoCliente = cod;
-		nombre = nombre;
+		this.nombre = nombre;
 		direccionCliente = direccion;
 	}
 	//Métodos Inspectores

@@ -31,14 +31,19 @@ public class TestBanco {
 		System.out.println("La cuenta de " + cuentaBeatriz.getCliente().getNombre() + " tiene "
 				+ cuentaBeatriz.getSaldoCuenta() + " euros.");
 
-		/* Antonio gana 100€ en una rifa y hace un ingreso en su cuenta */
+		/* Antonio gana 100€ en una rifa y hace un ingreso en su cuenta. */
 		cuentaAntonio.setSaldoCuenta(cuentaAntonio.getSaldoCuenta() + 100);
-
+		
 		/* Beatriz tiene que pagar 30€ a hacienda y retira el dinero */
 		cuentaBeatriz.setSaldoCuenta(cuentaBeatriz.getSaldoCuenta() - 30);
-
+		
 		/* Antonio transfiere 50€ a Beatriz */
 		cuentaAntonio.setSaldoCuenta(cuentaAntonio.getSaldoCuenta() - 50);
 		cuentaBeatriz.setSaldoCuenta(cuentaBeatriz.getSaldoCuenta() + 50);
+		
+		System.out.println("La cuenta de " + cuentaAntonio.getCliente().getNombre() + " tiene "
+				+ cuentaAntonio.getSaldoCuenta() + " euros.");
+		System.out.println("La cuenta de " + cuentaBeatriz.getCliente().getNombre() + " tiene "
+				+ cuentaBeatriz.getSaldoCuenta() + " euros.");
 	}
 }
