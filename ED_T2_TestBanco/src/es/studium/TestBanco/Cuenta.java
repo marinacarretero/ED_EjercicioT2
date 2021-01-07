@@ -14,14 +14,14 @@ public class Cuenta
 	{
 		codigoCuenta = 0;
 		saldoCuenta = 0;
-		cliente= cliente;
+		cliente= new Cliente();
 	}
 	//Constructor con parámetros
 	public Cuenta(int codigo, int saldo, Cliente cliente)
 	{
 		codigoCuenta = codigo;
 		saldoCuenta = saldo;
-		cliente = cliente;
+		this.cliente = cliente;
 	}
 	
 	//Métodos Inspectores
