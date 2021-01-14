@@ -20,7 +20,7 @@ public class TestBanco {
 				+ cuentaAntonio.getSaldoCuenta() + " euros.");
 		System.out.println("La cuenta de " + cuentaBeatriz.getCliente().getNombre() + " tiene "
 				+ cuentaBeatriz.getSaldoCuenta() + " euros.");
-
+		
 		/* Beatriz transfiere 50€ a Antonio */
 		cuentaBeatriz.setSaldoCuenta(cuentaBeatriz.getSaldoCuenta() - 50);
 		cuentaAntonio.setSaldoCuenta(cuentaAntonio.getSaldoCuenta() + 50);
@@ -37,7 +37,7 @@ public class TestBanco {
 		/* Beatriz tiene que pagar 30€ a hacienda y retira el dinero */
 		cuentaBeatriz.setSaldoCuenta(cuentaBeatriz.getSaldoCuenta() - 30);
 		
-		/* Antonio transfiere 50€ a Beatriz */
+		/* Antonio transfiere 50€ a Beatriz Benítez */
 		cuentaAntonio.setSaldoCuenta(cuentaAntonio.getSaldoCuenta() - 50);
 		cuentaBeatriz.setSaldoCuenta(cuentaBeatriz.getSaldoCuenta() + 50);
 		
